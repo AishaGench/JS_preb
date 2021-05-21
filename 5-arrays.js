@@ -30,3 +30,19 @@ console.log(students);
 
 var index = students.indexOf('Aisha');
 console.log(index);
+
+students.splice(0,1); //delete elements in Array
+console.log(students);
+
+students.splice(2,0,'Heyyyy'); //insert elements
+//2 - statring position in the array that new elements will be inserted
+//0 - instruct the splice() method to not to delete any array elements
+//third arguments, fourth argument, and so on are the new elements that are inserted into arrays
+console.log(students);
+
+var array =[1,30,4,21];
+console.log(array.sort);//cast elements to string and compares the sgtrings to determine the orders
+
+//Multidimensional Array
+var activities =[['Work', 9],['Eat', 2],['Commute', 2],['Play Game', 2],['Sleep',7]];
+console.log(activities[0]);
