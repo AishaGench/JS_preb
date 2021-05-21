@@ -24,3 +24,9 @@ console.log(students);
 
 students.pop(); //removes an element from the end of an arrays
 console.log(students);
+
+students.shift(); //removes an element from the beginning of an arrays
+console.log(students);
+
+var index = students.indexOf('Aisha');
+console.log(index);
