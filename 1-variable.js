@@ -27,3 +27,5 @@ console.log(firstName + " " + lastName);
 
 // console.log("Aysegul Genc");
 // document.write("Aysegul Genc"); //Writing into the HTML output
+
+console.log(3+5*4-6);

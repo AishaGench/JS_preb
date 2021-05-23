@@ -6,8 +6,19 @@ var x = 5;
 x+=5;
 console.log(x);
 
-//Comparison
+var a =50;
+a= --a + a++ + a-- + ++a
+console.log(a);
 
+var a = 1;
+a = -a-- + a++ / -a-- * --a;
+console.log(a);
+
+var x = 4;
+var y =  x++;
+console.log(y);
+
+//Comparison
 var one  = 1;
 var one_again = 1;
 var one_string = '1';
