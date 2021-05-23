@@ -17,6 +17,13 @@ console.log(a) //undefined
 
 console.log(typeof x);
 
+var firstName = "Aysegul";
+var lastName = "Genc";
+console.log(firstName + " " + lastName);
+
 //prompt operator
-var name = prompt('Enter your name');
-console.log(namme);
+// var name = prompt('Enter your name');
+// console.log(namme);
+
+// console.log("Aysegul Genc");
+// document.write("Aysegul Genc"); //Writing into the HTML output

@@ -46,3 +46,4 @@ console.log(array.sort);//cast elements to string and compares the sgtrings to d
 //Multidimensional Array
 var activities =[['Work', 9],['Eat', 2],['Commute', 2],['Play Game', 2],['Sleep',7]];
 console.log(activities[0]);
+console.log(activities[0][1]);
