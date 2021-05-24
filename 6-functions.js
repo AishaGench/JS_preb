@@ -37,3 +37,20 @@ var show = function(){
   console.log('This is a function');
 }
 show();
+
+var divide = function(a,b){
+  return a / b;
+}
+
+var d = divide(20,10);
+console.log(d);
+
+//Passing a function to another functions
+function sum(a,b){
+  return a + b
+}
+function average(a,b,fn){
+  return fn(a,b)/2
+}
+var res = average(10,20,sum);
+console.log(res);
