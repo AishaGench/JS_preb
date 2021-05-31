@@ -45,6 +45,7 @@ var divide = function(a,b){
 var d = divide(20,10);
 console.log(d);
 
+console.log('=====================');
 //Passing a function to another functions
 function sum(a,b){
   return a + b
@@ -54,3 +55,39 @@ function average(a,b,fn){
 }
 var res = average(10,20,sum);
 console.log(res);
+
+console.log('=====================');
+//Example Utility Functions
+
+function cmToIn(length){
+  return length/2.54;
+}
+
+function inToCm(length){
+  return length * 2.54;
+}
+
+function convert(fn,length){
+  return fn(length);
+}
+
+var inches = convert(cmToIn,10);
+var cm = convert(inToCm,10);
+console.log(inches);
+console.log(cm);
+
+console.log('=====================');
+
+//Callback functions : A callback is a function passed as an argument to another function
+//A callback function can run after another function has finished
+
+function myDisplayer(some){
+  console.log(some);
+}
+
+function myCalculator(num1,num2,myCallback){
+  var sum = num1 + num2;
+  myCallback(sum);
+}
+
+myCalculator(5,5,myDisplayer);
