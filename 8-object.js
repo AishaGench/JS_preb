@@ -10,19 +10,19 @@ console.log(hotel.booked); //true
 
 
 //Object constructor function
-function hotel(name,rooms,booked){
-  this.name = name:
+function Hotel(name, rooms, booked){
+  this.name = name;
   this.rooms = rooms;
   this.booked =booked;
 
   this.checkAvailability = function(){
-    return this.rooms - this.booked;
+    return this.rooms + "-" + this.booked;
   }
 }
 
 var person = {
   firstName : 'Aysegul',
-  lastName : 'Smith'
+  lastName : 'Gench'
 }
 console.log(person);
 console.log(person.firstName);
@@ -59,6 +59,7 @@ for(var key in course){
   console.log(key + ":" + course[key]);
 
 }
+//example
 var myHonda = {
   color : 'red',
   wheels : 4,
@@ -68,6 +69,26 @@ var myHonda = {
   },
   hp : [300,500,100]
 }
-​
 console.log(myHonda.engine.size);
 console.log(myHonda.hp[0]);
+
+var car = {
+  make : 'Honda',
+  model : 'Civic',
+  year : 2000,
+  color : 'Red',
+  mileage : 75000,
+  started : false,
+  start : function(){
+    this.started = true;
+  },
+  drive : function(){
+    if(this.started){
+      console.log('It is running');
+    }else{
+      console.log('You need to start the engine first');
+    }
+  }
+}
+car.start();
+car.drive();
