@@ -20,4 +20,4 @@ console.log(num); // it gives to an error (typeError: assigment to constant vari
 let firstName = 'Aysegul';
 let lastName = 'Gench';
 console.log('My name is : ' + firstName + ' ' + lastName); //concatenation
-console.log(`My name is : ${firstName} ${lastName}`); // with back-tick
+console.log(`My name is : ${firstName} ${lastName}`); // concatenation with back-tick
