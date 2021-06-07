@@ -21,3 +21,10 @@ let sum = (a,b) => {
   let result = a+b;
   return result;
 }
+
+let total = arr =>arr.reduce(((a,b)=>a+b),5);
+let arr = [5,10,20];
+console.log(total(arr));
+//5 + 5 = 10
+//10 + 10 =20
+//20 + 20 = 40
