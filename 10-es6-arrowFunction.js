@@ -29,5 +29,15 @@ console.log(total(arr));
 //10 + 10 =20
 //20 + 20 = 40
 
+//map()method : creates a new array with the results of calling a provided function
+//on every element in the calling array
 
-//45.dk da kaldim
+const map1 = arr.map(x => x + 2);
+console.log(map1);
+
+//for ..of : creates a loop iterating over iterable objects
+
+let myFruits = ['Apple', 'Orange', 'Banana'];
+for (var value of myFruits) {
+  console.log(value);
+}
