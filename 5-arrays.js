@@ -47,3 +47,7 @@ console.log(array.sort);//cast elements to string and compares the sgtrings to d
 var activities =[['Work', 9],['Eat', 2],['Commute', 2],['Play Game', 2],['Sleep',7]];
 console.log(activities[0]);
 console.log(activities[0][1]);
+
+//Task for array
+let mounths = ['January','February', 'March', 'April','June', 'July','August','September', 'Oktober', 'November', 'December'];
+console.log('The mounth name is '+ mounths[0]);
