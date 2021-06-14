@@ -28,3 +28,6 @@ console.log(total(arr));
 //5 + 5 = 10
 //10 + 10 =20
 //20 + 20 = 40
+
+
+//45.dk da kaldim
